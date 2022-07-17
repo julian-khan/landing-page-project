@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_and_hero {
+    background: rgb(174, 174, 177)
+}
+
+.header {
+    display: flex;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    gap:200px;
+    justify-content: space-between;
+}
+
+.header_logo {
+    font-weight: bold;
+}
+
+.header_right {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.hero_section {
+    display: flex;
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
