@@ -2,23 +2,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: vw;
+    margin-top: 0;
 }
 
-.header_and_hero {
-    background: rgb(174, 174, 177)
+.top_section {
+    background: grey;
+}
+
+
+.header_hero_content {
+    background: grey;
 }
 
 .header {
     display: flex;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
     gap:200px;
     justify-content: space-between;
 }
 
 .header_logo {
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .header_right {
@@ -38,10 +44,38 @@ li {
 
 .hero_section {
     display: flex;
+    width: vw;
+    justify-content: center;
 }
 
 .hero_left {
     display: flex;
     flex-direction: column;
     gap: 10px 0;
+    flex-wrap: wrap;
+}
+
+.bolded_hero_text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.smaller_hero_text {
+    width: 300px
+}
+
+.hero_left button {
+    width:100px;
+    background: rgb(101, 101, 220);
+
+}
+
+.replace_with_image {
+    width: 350px;
+    height: 180px;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
