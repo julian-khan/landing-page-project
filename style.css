@@ -10,24 +10,32 @@ div {
     font-family: Roboto, sans-serif
 }
 
-.top_section {
- 
+.upper_container {
+    width: vw;
+    display: column;
+    gap: 250px, 50px;
 }
 
 
 .header_hero_content {
     background: #1F2937;
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px 0;
 }
 
 .header {
     display: flex;
     gap:200px;
     justify-content: space-between;
+    gap: 50px 0;
 }
 
 .header_logo {
     font-size: 24px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -35,7 +43,6 @@ div {
     display: flex;
     gap: 15px;
     list-style: none;
-
 }
 
 a {
@@ -58,35 +65,40 @@ li {
 .hero_left {
     display: flex;
     flex-direction: column;
-    gap: 10px 0;
+    gap: 9px 0;
     flex-wrap: wrap;
-    width: 300px;
     height: 240px;
+    width: 400px;
 }
 
 .bolded_hero_text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
 .smaller_hero_text {
-    width: 300px;
+    width: 450px;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .hero_left button {
     width:100px;
-    background: rgb(101, 101, 220);
-
+    background: #3882f6;
+    color:#F9FAF8;
+    border-radius: 15%;
+    border: none;
+    height: 30px;
 }
 
 .replace_with_image {
-    width: 350px;
-    height: 240px;
-    background: pink;
+    width: 500px;
+    height: 220px;
+    background: rgb(128, 127, 127);
+    color: rgb(233, 228, 228);
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
