@@ -107,6 +107,8 @@ li {
     padding: 0 150px;
 }
 
+/* Need to center the content in the middle container */
+
 .content_image {
     height: 200px;
     width: 200px;
@@ -165,6 +167,36 @@ li {
     align-self: flex-end;
 }
 
+.white_lower_region {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.call_to_action {
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 110px;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 80px auto;
+    border-radius: 2%;
+}
+
+.call_action_text {
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 3px 10px;
+}
+
+.footer_bold {
+    font-weight: bold;
+    font-size: 23px;
+}
+
 
 .call_to_action button {
     width:100px;
@@ -173,4 +205,9 @@ li {
     border-radius: 15%;
     border: 5px solid #F9FAF8;
     height: 30px;
+}
+
+.call_action_content {
+    display: flex;
+    gap: 50px 50px;
 }
