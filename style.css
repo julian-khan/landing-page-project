@@ -18,7 +18,6 @@ div {
     height: 450px;
 }
 
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -60,6 +59,7 @@ li {
     flex-wrap: wrap;
     height: 240px;
     width: 400px;
+    margin-right: 100px;
 }
 
 .bolded_hero_text {
@@ -91,6 +91,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 .middle_container {
@@ -102,11 +103,9 @@ li {
     padding: 0 150px;
 }
 
-/* Need to center the content in the middle container */
-
 .content_image {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 15px;
     border: 5px solid #3882f6;
 }
@@ -186,6 +185,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 3px 10px;
+    margin-right: 100px;
 }
 
 .footer_bold {
@@ -193,13 +193,12 @@ li {
     font-size: 23px;
 }
 
-
 .call_to_action button {
     width:100px;
     background: #3882f6;
     color:#F9FAF8;
     border-radius: 15%;
-    border: 5px solid #F9FAF8;
+    border: 3px solid #F9FAF8;
     height: 30px;
 }
 
