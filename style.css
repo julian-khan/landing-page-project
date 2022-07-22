@@ -111,8 +111,7 @@ li {
     height: 200px;
     width: 200px;
     border-radius: 15px;
-    border-color: #000000;
-    background-color: #38f6a1;
+    border: 5px solid #3882f6;
 }
 
 .white_section_text {
