@@ -122,6 +122,7 @@ li {
 
 .middle_section_smaller_text {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .all_content_containers {
@@ -136,5 +137,32 @@ li {
     gap: 10px 30px;
 }
 
+.quote_section {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 250px, 50px;
+    flex: 1 1 auto;
+    padding: 0 150px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote_text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    gap: 80px 0;
+}
+
+.quote_author {
+    font-weight: bold;
+    font-size: 26px;
+    align-self: flex-end;
+}
 
 
